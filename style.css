@@ -1,0 +1,43 @@
+body{
+    background-size: cover;
+    background-position: center;
+}
+.heading{
+    width: 100%;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Patrick Hand', cursive;
+    font-family: 'Tilt Prism', cursive;
+}
+#start{
+    font-size: 20px;
+    width: 20%;
+    font-style: italic;
+    font-weight: bolder;
+}
+#number_of_objects, #status{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+.copy_right_footer{
+    position: fixed;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    line-height: 2;
+    background-color: rgb(30, 255, 0);
+    text-shadow: 5px 5px 5px grey;
+    color: white;
+    bottom: 0;
+}
+canvas{
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+    color: white;
+    border: 2px solid white;
+    margin-top: 8%;
+}
